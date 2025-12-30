@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Loading Page</title>
+<style>
+    body{
+        margin:0;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+        background:#0f172a;
+        color:white;
+        font-family:Arial;
+    }
+
+    .loader{
+        width:60px;
+        height:60px;
+        border:6px solid #334155;
+        border-top:6px solid #38bdf8;
+        border-radius:50%;
+        animation:spin 1s linear infinite;
+    }
+
+    @keyframes spin{
+        0%{ transform:rotate(0deg); }
+        100%{ transform:rotate(360deg); }
+    }
+
+    .text{
+        margin-top:15px;
+        text-align:center;
+        font-size:18px;
+        letter-spacing:2px;
+    }
+</style>
+</head>
+<body>
+
+<div>
+    <div class="loader"></div>
+    <div class="text">Loading...</div>
+</div>
+
+</body>
+</html>
