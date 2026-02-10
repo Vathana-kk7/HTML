@@ -1,0 +1,47 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: blue;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+fieldset{
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+hr{
+    border: 2px solid blue;
+}
+
+#big{
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+img{
+    width: 150px;
+    height: 80px;
+    box-shadow: 10px 10px 8px gray;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
